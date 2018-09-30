@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Diurnal",
+  "version": "1.0",
+  "description": "The daily language-learning journal",
+  "permissions": ["declarativeContent", "storage", "debugger"],
+  "devtools_page": "devtools.html",
+  "background": {
+    "scripts": ["app/background.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  }
+}
